@@ -11,7 +11,7 @@ My journey starts here.
 <div id="nameDisplay" style="font-size: 14px; font-family: Arial, sans-serif; color: white"></div>
 
 <script>
-    const name = "My name is Dinesh Sahai, I am a CSA student at Del Norte Highschool"; 
+    const name = "My name is Dinesh Sahai, I am a CSA student at Del Norte High School";
     const displayElement = document.getElementById('nameDisplay');
     let index = 0;
 
