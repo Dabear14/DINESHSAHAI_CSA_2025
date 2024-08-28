@@ -5,10 +5,72 @@ description: Home Page
 hide: true
 ---
 
+<style>
+    body {
+        background-color: #1D428A;
+        color: #FFC72C; 
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        color: #FFC72C; 
+    }
+
+    a {
+        color: #FFC72C; 
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: #006BB6; 
+    }
+
+    #nameDisplay {
+        font-size: 14px; 
+        font-family: Arial, sans-serif; 
+        color: #FFC72C; 
+    }
+
+    #calculator {
+        max-width: 200px; 
+        margin: 20px auto;
+        background-color: #006BB6; 
+        padding: 15px;
+        border-radius: 8px;
+    }
+
+    #display {
+        width: 100%; 
+        padding: 10px; 
+        font-size: 18px; 
+        text-align: right;
+        background-color: #1D428A; 
+        color: #FFC72C; 
+        border: none;
+        border-radius: 4px;
+    }
+
+    button {
+        padding: 10px;
+        font-size: 18px;
+        background-color: #FFC72C; 
+        color: #1D428A; 
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #FFB81C; 
+    }
+</style>
+
 My journey starts here.
 
 <!-- -->
-<div id="nameDisplay" style="font-size: 14px; font-family: Arial, sans-serif; color: white"></div>
+<div id="nameDisplay"></div>
 
 <script>
     const name = "My name is Dinesh Sahai, I am a CSA student at Del Norte High School";
@@ -26,8 +88,8 @@ My journey starts here.
     typeCharacter();
 </script>
 
-<div id="calculator" style="max-width: 200px; margin: 20px auto;">
-    <input type="text" id="display" style="width: 100%; padding: 10px; font-size: 18px; text-align: right;" disabled>
+<div id="calculator">
+    <input type="text" id="display" disabled>
     <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 5px; margin-top: 10px;">
         <button onclick="appendNumber('7')">7</button>
         <button onclick="appendNumber('8')">8</button>
