@@ -5,49 +5,6 @@ description: Home Page
 hide: true
 ---
 
-<style>
-    body {
-        font-family: 'Arial', sans-serif;
-        background: linear-gradient(to bottom right, #000000, #ffffff);
-        color: #fff;
-        text-align: center;
-        padding: 20px;
-    }
-
-    #nameDisplay {
-        font-size: 24px;
-        font-weight: bold;
-        margin-top: 50px;
-        color: #000080; 
-        text-shadow: none; 
-    }
-
-    button {
-        padding: 15px;
-        font-size: 18px;
-        background: #ffeb3b;
-        color: #000;
-        border: none;
-        border-radius: 5px;
-        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-        transition: background 0.3s ease, box-shadow 0.3s ease;
-        cursor: pointer;
-    }
-
-    button:hover {
-        background: #ffc107;
-        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
-    }
-
-    input[type="text"] {
-        background: rgba(255, 255, 255, 0.3);
-        border: none;
-        border-radius: 5px;
-        color: #fff;
-        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-    }
-</style>
-
 My journey starts here.
 
 <div id="nameDisplay"></div>
