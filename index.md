@@ -7,69 +7,49 @@ hide: true
 
 <style>
     body {
-        background-color: #1D428A;
-        color: #FFC72C; 
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-    }
-
-    h1, h2, h3, h4, h5, h6 {
-        color: #FFC72C; 
-    }
-
-    a {
-        color: #FFC72C; 
-        text-decoration: none;
-    }
-
-    a:hover {
-        color: #006BB6; 
+        font-family: 'Arial', sans-serif;
+        background: linear-gradient(to bottom right, #000000, #ffffff);
+        color: #fff;
+        text-align: center;
+        padding: 20px;
     }
 
     #nameDisplay {
-        font-size: 14px; 
-        font-family: Arial, sans-serif; 
-        color: #FFC72C; 
-    }
-
-    #calculator {
-        max-width: 200px; 
-        margin: 20px auto;
-        background-color: #006BB6; 
-        padding: 15px;
-        border-radius: 8px;
-    }
-
-    #display {
-        width: 100%; 
-        padding: 10px; 
-        font-size: 18px; 
-        text-align: right;
-        background-color: #1D428A; 
-        color: #FFC72C; 
-        border: none;
-        border-radius: 4px;
+        font-size: 24px;
+        font-weight: bold;
+        margin-top: 50px;
+        color: #000080; 
+        text-shadow: none; 
     }
 
     button {
-        padding: 10px;
+        padding: 15px;
         font-size: 18px;
-        background-color: #FFC72C; 
-        color: #1D428A; 
+        background: #ffeb3b;
+        color: #000;
         border: none;
-        border-radius: 4px;
+        border-radius: 5px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+        transition: background 0.3s ease, box-shadow 0.3s ease;
         cursor: pointer;
     }
 
     button:hover {
-        background-color: #FFB81C; 
+        background: #ffc107;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    }
+
+    input[type="text"] {
+        background: rgba(255, 255, 255, 0.3);
+        border: none;
+        border-radius: 5px;
+        color: #fff;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
     }
 </style>
 
 My journey starts here.
 
-<!-- -->
 <div id="nameDisplay"></div>
 
 <script>
@@ -88,8 +68,8 @@ My journey starts here.
     typeCharacter();
 </script>
 
-<div id="calculator">
-    <input type="text" id="display" disabled>
+<div id="calculator" style="max-width: 200px; margin: 20px auto;">
+    <input type="text" id="display" style="width: 100%; padding: 10px; font-size: 18px; text-align: right;" disabled>
     <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 5px; margin-top: 10px;">
         <button onclick="appendNumber('7')">7</button>
         <button onclick="appendNumber('8')">8</button>
