@@ -5,18 +5,19 @@ description: Home Page
 hide: true
 ---
 
-<nav style="background-color: #2c3e50; padding: 10px 0;">
-    <ul style="list-style: none; margin: 0; padding: 0; display: flex; justify-content: center; gap: 20px;">
-    <li><a href="http://127.0.0.1:4100/DINESHSAHAI_CSA_2025/2024/09/03/Minigame.html" style="text-decoration: none; color: #ecf0f1; font-size: 18px;">MiniGame</a></li>
-        <li><a href="http://127.0.0.1:4100/DINESHSAHAI_CSA_2025/2024/08/28/Hacks-Summary.html" style="text-decoration: none; color: #ecf0f1; font-size: 18px;">Sprints</a></li>
-        <li><a href="http://127.0.0.1:4100/DINESHSAHAI_CSA_2025/2024/08/24/capture.html" style="text-decoration: none; color: #ecf0f1; font-size: 18px;">Captures</a></li>
-        <li><a href="http://127.0.0.1:4100/DINESHSAHAI_CSA_2025/" style="text-decoration: none; color: #ecf0f1; font-size: 18px;">Home Page</a></li>
+<nav style="background-color: #2c3e50; padding: 15px 0; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);">
+    <ul style="list-style: none; margin: 0; padding: 0; display: flex; justify-content: center; gap: 30px;">
+        <li><a href="http://127.0.0.1:4100/DINESHSAHAI_CSA_2025/2024/09/03/Minigame.html" style="text-decoration: none; color: #ecf0f1; font-size: 18px; padding: 8px 15px; border-radius: 4px; transition: background-color 0.3s;">MiniGame</a></li>
+        <li><a href="http://127.0.0.1:4100/DINESHSAHAI_CSA_2025/2024/08/28/Hacks-Summary.html" style="text-decoration: none; color: #ecf0f1; font-size: 18px; padding: 8px 15px; border-radius: 4px; transition: background-color 0.3s;">Sprints</a></li>
+        <li><a href="http://127.0.0.1:4100/DINESHSAHAI_CSA_2025/2024/08/24/capture.html" style="text-decoration: none; color: #ecf0f1; font-size: 18px; padding: 8px 15px; border-radius: 4px; transition: background-color 0.3s;">Captures</a></li>
+        <li><a href="http://127.0.0.1:4100/DINESHSAHAI_CSA_2025/" style="text-decoration: none; color: #ecf0f1; font-size: 18px; padding: 8px 15px; border-radius: 4px; transition: background-color 0.3s;">Home Page</a></li>
     </ul>
 </nav>
 
-My journey starts here.
-
-<div id="nameDisplay"></div>
+<main style="padding: 20px; font-family: Arial, sans-serif; color: #34495e; text-align: center;">
+    <h1 style="font-size: 24px; margin-bottom: 20px;">My journey starts here.</h1>
+    <div id="nameDisplay" style="font-size: 20px; line-height: 1.5;"></div>
+</main>
 
 <script>
     const name = "My name is Dinesh Sahai, I am a CSA student at Del Norte High School";
@@ -41,17 +42,14 @@ My journey starts here.
         <button onclick="appendNumber('8')">8</button>
         <button onclick="appendNumber('9')">9</button>
         <button onclick="appendOperator('/')">/</button>
-
         <button onclick="appendNumber('4')">4</button>
         <button onclick="appendNumber('5')">5</button>
         <button onclick="appendNumber('6')">6</button>
         <button onclick="appendOperator('*')">*</button>
-
         <button onclick="appendNumber('1')">1</button>
         <button onclick="appendNumber('2')">2</button>
         <button onclick="appendNumber('3')">3</button>
         <button onclick="appendOperator('-')">-</button>
-
         <button onclick="appendNumber('0')">0</button>
         <button onclick="clearDisplay()">C</button>
         <button onclick="calculateResult()">=</button>
