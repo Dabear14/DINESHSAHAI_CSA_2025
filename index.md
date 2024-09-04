@@ -5,8 +5,6 @@ description: Home Page
 hide: true
 ---
 
-My journey starts here.
-
 <nav style="background-color: #2c3e50; padding: 10px 0;">
     <ul style="list-style: none; margin: 0; padding: 0; display: flex; justify-content: center; gap: 20px;">
     <li><a href="http://127.0.0.1:4100/DINESHSAHAI_CSA_2025/2024/09/03/Minigame.html" style="text-decoration: none; color: #ecf0f1; font-size: 18px;">MiniGame</a></li>
@@ -15,6 +13,8 @@ My journey starts here.
         <li><a href="http://127.0.0.1:4100/DINESHSAHAI_CSA_2025/" style="text-decoration: none; color: #ecf0f1; font-size: 18px;">Home Page</a></li>
     </ul>
 </nav>
+
+My journey starts here.
 
 <div id="nameDisplay"></div>
 
