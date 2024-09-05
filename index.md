@@ -10,7 +10,7 @@ hide: true
         <li><a href="http://127.0.0.1:4100/DINESHSAHAI_CSA_2025/2024/09/03/Minigame.html" style="text-decoration: none; color: #ecf0f1; font-size: 18px; padding: 8px 15px; border-radius: 4px; transition: background-color 0.3s;">MiniGame</a></li>
         <li><a href="http://127.0.0.1:4100/DINESHSAHAI_CSA_2025/2024/08/28/Hacks-Summary.html" style="text-decoration: none; color: #ecf0f1; font-size: 18px; padding: 8px 15px; border-radius: 4px; transition: background-color 0.3s;">Sprints</a></li>
         <li><a href="http://127.0.0.1:4100/DINESHSAHAI_CSA_2025/2024/08/24/capture.html" style="text-decoration: none; color: #ecf0f1; font-size: 18px; padding: 8px 15px; border-radius: 4px; transition: background-color 0.3s;">Captures</a></li>
-        <li><a href="http://127.0.0.1:4100/DINESHSAHAI_CSA_2025/" style="text-decoration: none; color: #ecf0f1; font-size: 18px; padding: 8px 15px; border-radius: 4px; transition: background-color 0.3s;">Home Page</a></li>
+        <li><a href="http://127.0.0.1:4100/DINESHSAHAI_CSA_2025/" style="text-decoration: none; font-size: 18px; padding: 8px 15px; border-radius: 4px; transition: background-color 0.3s;">Home Page</a></li>
     </ul>
 </nav>
 
