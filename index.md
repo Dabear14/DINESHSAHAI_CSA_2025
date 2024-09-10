@@ -80,3 +80,54 @@ hide: true
         }
     }
 </script>
+
+<div id="randomImage" onclick="sayRandomText();" style="position: absolute; cursor: pointer; z-index: 9999;">
+        <img src="{{ site.baseurl }}/images/mort.png" alt="Random Icon" style="width: 50px; height: 50px;" />
+    </div>
+
+<script>
+    // Variables to control image movement
+    let posX = Math.random() * (window.innerWidth - 50);
+    let posY = Math.random() * (window.innerHeight - 50);
+    let velocityX = 1;
+    let velocityY = 1;
+
+    // Function to move the image
+    function moveImage() {
+        const image = document.getElementById('randomImage');
+        const imageWidth = image.offsetWidth;
+        const imageHeight = image.offsetHeight;
+
+        // Update the position
+        posX += velocityX;
+        posY += velocityY;
+
+        // Bounce off the walls
+        if (posX <= 0 || posX + imageWidth >= window.innerWidth) {
+            velocityX = -velocityX;
+        }
+        if (posY <= 0 || posY + imageHeight >= window.innerHeight) {
+            velocityY = -velocityY;
+        }
+
+        // Apply the new position
+        image.style.left = `${posX}px`;
+        image.style.top = `${posY}px`;
+
+        // Call the moveImage function repeatedly to keep the image moving
+        requestAnimationFrame(moveImage);
+    }
+
+    // Start the image moving when the page loads
+    window.onload = () => {
+        moveImage();
+    };
+
+    // Function for text-to-speech on image click
+    function sayRandomText() {
+        const messages = ["Code, code, code!"];
+        const randomMessage = messages[Math.floor(Math.random() * messages.length)];
+        const synth = window.speechSynthesis;
+        const utterThis = new SpeechSynthesisUtterance(randomMessage);
+        synth.speak(utterThis);
+    }   

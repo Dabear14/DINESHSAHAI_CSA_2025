@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: post
+comments: True
 title: About
 permalink: /about/
 ---
