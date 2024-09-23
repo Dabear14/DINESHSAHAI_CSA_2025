@@ -5,7 +5,7 @@ title: About
 permalink: /about/
 ---
 
-### Image Gallery
+### Family Gallery
 
 <div class="gallery-container">
   <div class="gallery-slide fade">

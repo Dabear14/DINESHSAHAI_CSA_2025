@@ -126,7 +126,7 @@ hide: true
 
     // Function for text-to-speech on image click
     function sayRandomText() {
-        const messages = ["Code, code, code!"];
+        const messages = ["Code Code Code"];
         const randomMessage = messages[Math.floor(Math.random() * messages.length)];
         const synth = window.speechSynthesis;
         const utterThis = new SpeechSynthesisUtterance(randomMessage);
