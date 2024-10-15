@@ -166,7 +166,7 @@
             <li><a href="#" class="sidebar-link">Projects</a></li>
             <li><a href="http://127.0.0.1:4100/DINESHSAHAI_CSA_2025/about/" class="sidebar-link">About</a></li>
             <li><a href="http://localhost:4100/DINESHSAHAI_CSA_2025/2024/09/03/Minigame.html" class="sidebar-link">Minigame</a></li>
-            <li><a href="http://localhost:4100/DINESHSAHAI_CSA_2025/navigation/2024-10-10-sprint2.html" class="sidebar-link">Latest Sprint</a></li>
+            <li><a href="https://dabear14.github.io/DINESHSAHAI_CSA_2025/navigation/2024-10-10-sprint2.html" class="sidebar-link">Latest Sprint</a></li>
         </ul>
     </div>
     <div class="main-content">
