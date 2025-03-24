@@ -33,13 +33,13 @@ jobs:
         run: python scripts/convert_notebooks.py
 
       - name: Build with Jekyll
-        uses: actions/jekyll-build-pages@v1  # Already latest
+        uses: actions/jekyll-build-pages@v1
         with:
           source: ./
           destination: ./_site
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2  # Updated to v2
+        uses: actions/upload-pages-artifact@v3
 
   deploy:
     environment:
@@ -50,4 +50,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v2  # Already latest
+        uses: actions/deploy-pages@v2
